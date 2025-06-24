@@ -1,0 +1,292 @@
+{
+  "name": "Elf Rush",
+  "assets": [
+    {
+      "id": "1",
+      "name": "Scene",
+      "type": "scene"
+    },
+    {
+      "id": "54",
+      "name": "SceneRetry",
+      "type": "scene"
+    },
+    {
+      "id": "33",
+      "name": "SplashScreen",
+      "type": "scene"
+    },
+    {
+      "id": "2",
+      "name": "Character Sprites",
+      "type": null,
+      "children": [
+        {
+          "id": "0",
+          "name": "Elf",
+          "type": "sprite"
+        },
+        {
+          "id": "27",
+          "name": "ElfOutline",
+          "type": "sprite"
+        },
+        {
+          "id": "40",
+          "name": "Santa Sleigh",
+          "type": "sprite"
+        },
+        {
+          "id": "52",
+          "name": "ElfOutlineAnim",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "GameSprites",
+      "type": null,
+      "children": [
+        {
+          "id": "4",
+          "name": "Christmas Room",
+          "type": "sprite"
+        },
+        {
+          "id": "8",
+          "name": "background",
+          "type": "sprite"
+        },
+        {
+          "id": "10",
+          "name": "Presents",
+          "type": "sprite"
+        },
+        {
+          "id": "11",
+          "name": "White",
+          "type": "sprite"
+        },
+        {
+          "id": "12",
+          "name": "Tree",
+          "type": "sprite"
+        },
+        {
+          "id": "28",
+          "name": "Ornament",
+          "type": "sprite"
+        },
+        {
+          "id": "45",
+          "name": "Ornament2",
+          "type": "sprite"
+        },
+        {
+          "id": "36",
+          "name": "Level Banner",
+          "type": "sprite"
+        },
+        {
+          "id": "38",
+          "name": "Menu Buttons",
+          "type": "sprite"
+        },
+        {
+          "id": "44",
+          "name": "Check Buttons",
+          "type": "sprite"
+        },
+        {
+          "id": "47",
+          "name": "Lights",
+          "type": "sprite"
+        },
+        {
+          "id": "53",
+          "name": "Timer",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Fonts",
+      "type": null,
+      "children": [
+        {
+          "id": "5",
+          "name": "Camping Holiday",
+          "type": "font"
+        },
+        {
+          "id": "7",
+          "name": "Calasans",
+          "type": "font"
+        },
+        {
+          "id": "13",
+          "name": "Steelfish Outline",
+          "type": "font"
+        },
+        {
+          "id": "14",
+          "name": "Font",
+          "type": "font"
+        },
+        {
+          "id": "37",
+          "name": "Font2",
+          "type": "font"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Presets",
+      "type": null,
+      "children": [
+        {
+          "id": "18",
+          "name": "TreeTrunk",
+          "type": "scene"
+        },
+        {
+          "id": "15",
+          "name": "TreeBranch",
+          "type": "scene"
+        },
+        {
+          "id": "22",
+          "name": "Present",
+          "type": "scene"
+        },
+        {
+          "id": "29",
+          "name": "Ornament",
+          "type": "scene"
+        },
+        {
+          "id": "25",
+          "name": "Score",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Scripts",
+      "type": null,
+      "children": [
+        {
+          "id": "16",
+          "name": "TreeManager",
+          "type": "script"
+        },
+        {
+          "id": "17",
+          "name": "Branch",
+          "type": "script"
+        },
+        {
+          "id": "9",
+          "name": "GameManager",
+          "type": "script"
+        },
+        {
+          "id": "3",
+          "name": "Player",
+          "type": "script"
+        },
+        {
+          "id": "23",
+          "name": "Present",
+          "type": "script"
+        },
+        {
+          "id": "30",
+          "name": "Ornament",
+          "type": "script"
+        },
+        {
+          "id": "55",
+          "name": "Timer",
+          "type": "script"
+        },
+        {
+          "id": "24",
+          "name": "LvlManager",
+          "type": "script"
+        },
+        {
+          "id": "26",
+          "name": "Score",
+          "type": "script"
+        },
+        {
+          "id": "34",
+          "name": "SplashScreen",
+          "type": "script"
+        },
+        {
+          "id": "35",
+          "name": "ObstacleDestroyed",
+          "type": "script"
+        },
+        {
+          "id": "39",
+          "name": "menuButtons",
+          "type": "script"
+        },
+        {
+          "id": "43",
+          "name": "SoundManager",
+          "type": "script"
+        },
+        {
+          "id": "48",
+          "name": "Light",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Sounds",
+      "type": null,
+      "children": [
+        {
+          "id": "41",
+          "name": "presentCollected",
+          "type": "sound"
+        },
+        {
+          "id": "50",
+          "name": "playerMovement",
+          "type": "sound"
+        },
+        {
+          "id": "51",
+          "name": "myLittleDrum",
+          "type": "sound"
+        },
+        {
+          "id": "56",
+          "name": "ornamentHit",
+          "type": "sound"
+        },
+        {
+          "id": "57",
+          "name": "bannerSound",
+          "type": "sound"
+        },
+        {
+          "id": "58",
+          "name": "Music",
+          "type": "sound"
+        }
+      ]
+    }
+  ]
+}
